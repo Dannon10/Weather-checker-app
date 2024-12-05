@@ -1,5 +1,5 @@
 Weather Checker App
-weather-checker-app.vercel.app
+https://weather-checker-app.vercel.app/
 
 ## About
 
