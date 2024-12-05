@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+    <script defer src="index.js"></script>
+</head>
+
+<body class="weat">
+
+    <div class="container-weather">
+
+        <header class="head">
+            <h5>Good day</h5>
+            <p class="date"></p>
+        </header>
+
+        <img src="img/sun1.png" class="sun sun2" alt="">
+
+        <section class="search-section">
+
+            <div class="search-sect">
+                <form action="">
+                    <input type="text" class="search" placeholder="Search by city name">
+                    <button type="submit" class="btn-submit">Submit</button>
+                    <p class="error"></p>
+                </form>
+            </div>
+        </section>
+
+        <main class="main-container">
+            <div class="weather-container">
+
+                <div class="weather-content
+                1">
+                    <h3 class="city">City</h3>
+                    <h1 class="temp">---°C</h1>
+                    <p class="weather">Weather</p>
+                </div>
+
+                <div class="weather-content2">
+
+                    <div class="temprange det">
+                        <img src="img/wether-icon-mini.png" class="weather-icon">
+                        <p>Temp range</p>
+                        <h5 class="temp-range">---°C / ---°C</h5>
+                    </div>
+
+                    <div class="humidtys det">
+                        <img src="img/wether-icon-mini.png" class="weather-icon">
+                        <p>Humidity</p>
+                        <h5 class="humidity">---%</h5>
+                    </div>
+
+                    <div class="pressures det">
+                        <img src="img/wether-icon-mini.png" class="weather-icon">
+                        <p>Pressure</p>
+                        <h5 class="pressure">---mBar</h5>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
